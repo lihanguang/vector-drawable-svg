@@ -330,7 +330,7 @@ function convertHexColor(argb) {
 		green = digits.substr(4, 2);
 		blue = digits.substr(6, 2);
 	}
-	return '#' + red + green + blue + alpha;
+	return '#' + alpha + red + green + blue;
 }
 
 
